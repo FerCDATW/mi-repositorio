@@ -1,4 +1,4 @@
-const formulario = document.getElementById("formulario");
+        const formulario = document.getElementById("formulario");
         const email = document.getElementById("mail");
         const mensaje = document.getElementById("mensaje");
 
