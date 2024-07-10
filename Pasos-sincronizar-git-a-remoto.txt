@@ -1,0 +1,20 @@
+
+He aprovechado la tarea que hice el día 5/07/24 con el nombre SWPCP de SitioWebPruebaControlVersiones, (como lo hice desde mi usuario de la cuenta que yo ya tenía) 
+He cambiado al usuario el repositorio al nuevo usuario que creado para el curso.
+
+He seguido los siguientes pasos:
+
+1.- Dentro del repositorio que tenía creado con el anterior usuario he cambiado la configuración local del respositorio:
+	git config user.name "Nuevo Nombre"
+	git config user.email "nuevo.email@ejemplo.com"
+	
+2.- Cambio el autor de los commits existentes:
+	git rebase -r --root --exec "git commit --amend --no-edit --reset-author"
+	
+3.- He verificado los cambios
+	git log
+	los commits ahora tienen el nuevo nombre de autor y email.
+	
+4.-  Creo un nuevo repositorio en GitHub
+
+5.- Sincronizo el repositorio local a Github
